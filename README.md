@@ -42,7 +42,9 @@ If the project is already running locally, this is the path:
 
 - **Node.js ≥ 20** ([nodejs.org](https://nodejs.org))
 - **npm** (ships with Node)
-- A modern browser (Chrome, Safari, Firefox)
+- A modern browser — **Chrome, Safari, or Firefox** (do *not* use VS Code's Simple Browser; it can't handle modern web apps)
+
+> **Full hardware + software + dependency list:** see **[REQUIREMENTS.md](REQUIREMENTS.md)** — versions, env vars, troubleshooting, the lot.
 
 ### 1 — Clone and install
 
