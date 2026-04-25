@@ -49,8 +49,8 @@ If the project is already running locally, this is the path:
 ### 1 — Clone and install
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Nathsvelro/unmapped-kairos.git
+cd unmapped-kairos
 npm install
 ```
 
