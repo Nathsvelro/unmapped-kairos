@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "source": "World Bank World Development Indicators",
+    "source_url": "https://databank.worldbank.org/source/world-development-indicators",
+    "data_year": 2023,
+    "indicators": {
+      "SL.UEM.NEET.ZS": "Share of youth not in education, employment or training, total (% of youth population)",
+      "SL.EMP.WORK.ZS": "Wage and salaried workers, total (% of total employment) (modeled ILO estimate)",
+      "SL.EMP.TOTL.SP.ZS": "Employment to population ratio, 15+, total (%) (modeled ILO estimate)",
+      "NY.GDP.PCAP.CD": "GDP per capita (current US$)",
+      "NY.GDP.PCAP.KD.ZG": "GDP per capita growth (annual %)",
+      "SL.TLF.0714.ZS": "Children in employment, total (% of children ages 7-14)"
+    }
+  },
+  "data": {
+    "GH": {
+      "SL.UEM.NEET.ZS": 24.6,
+      "SL.EMP.WORK.ZS": 22.0,
+      "SL.EMP.TOTL.SP.ZS": 62.1,
+      "NY.GDP.PCAP.CD": 2238,
+      "NY.GDP.PCAP.KD.ZG": 0.5,
+      "human_capital_index": 0.45
+    },
+    "BD": {
+      "SL.UEM.NEET.ZS": 28.0,
+      "SL.EMP.WORK.ZS": 46.4,
+      "SL.EMP.TOTL.SP.ZS": 56.7,
+      "NY.GDP.PCAP.CD": 2529,
+      "NY.GDP.PCAP.KD.ZG": 4.5,
+      "human_capital_index": 0.46
+    },
+    "MX": {
+      "SL.UEM.NEET.ZS": 16.5,
+      "SL.EMP.WORK.ZS": 70.0,
+      "SL.EMP.TOTL.SP.ZS": 60.6,
+      "NY.GDP.PCAP.CD": 13790,
+      "NY.GDP.PCAP.KD.ZG": 2.3,
+      "human_capital_index": 0.61
+    },
+    "BR": {
+      "SL.UEM.NEET.ZS": 22.7,
+      "SL.EMP.WORK.ZS": 64.0,
+      "SL.EMP.TOTL.SP.ZS": 57.3,
+      "NY.GDP.PCAP.CD": 10043,
+      "NY.GDP.PCAP.KD.ZG": 1.5,
+      "human_capital_index": 0.60
+    }
+  }
+}

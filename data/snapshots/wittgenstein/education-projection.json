@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "source": "Wittgenstein Centre Human Capital Data Explorer",
+    "source_url": "http://dataexplorer.wittgensteincentre.org/",
+    "scenario": "SSP2 (Shared Socioeconomic Pathway 2 — Middle of the Road)",
+    "age_group": "20-29 (youth proxy)",
+    "sex": "Both",
+    "schema": "Population (in millions) by educational attainment, age 20-29, projected 5-year intervals 2025-2035.",
+    "categories": [
+      "no_education",
+      "primary_completed",
+      "lower_secondary_completed",
+      "upper_secondary_completed",
+      "post_secondary_completed"
+    ]
+  },
+  "data": {
+    "GH": {
+      "2025": { "no_education": 0.31, "primary_completed": 0.66, "lower_secondary_completed": 1.81, "upper_secondary_completed": 1.95, "post_secondary_completed": 0.62 },
+      "2030": { "no_education": 0.24, "primary_completed": 0.61, "lower_secondary_completed": 1.78, "upper_secondary_completed": 2.34, "post_secondary_completed": 0.85 },
+      "2035": { "no_education": 0.18, "primary_completed": 0.55, "lower_secondary_completed": 1.71, "upper_secondary_completed": 2.69, "post_secondary_completed": 1.10 }
+    },
+    "BD": {
+      "2025": { "no_education": 1.94, "primary_completed": 5.42, "lower_secondary_completed": 7.86, "upper_secondary_completed": 8.51, "post_secondary_completed": 3.21 },
+      "2030": { "no_education": 1.42, "primary_completed": 4.65, "lower_secondary_completed": 7.60, "upper_secondary_completed": 9.94, "post_secondary_completed": 4.18 },
+      "2035": { "no_education": 0.95, "primary_completed": 3.84, "lower_secondary_completed": 7.20, "upper_secondary_completed": 11.21, "post_secondary_completed": 5.15 }
+    },
+    "MX": {
+      "2025": { "no_education": 0.42, "primary_completed": 1.21, "lower_secondary_completed": 4.56, "upper_secondary_completed": 7.85, "post_secondary_completed": 5.92 },
+      "2030": { "no_education": 0.31, "primary_completed": 0.95, "lower_secondary_completed": 4.12, "upper_secondary_completed": 8.41, "post_secondary_completed": 7.21 },
+      "2035": { "no_education": 0.22, "primary_completed": 0.76, "lower_secondary_completed": 3.69, "upper_secondary_completed": 8.78, "post_secondary_completed": 8.35 }
+    },
+    "BR": {
+      "2025": { "no_education": 0.92, "primary_completed": 2.84, "lower_secondary_completed": 8.21, "upper_secondary_completed": 14.65, "post_secondary_completed": 8.42 },
+      "2030": { "no_education": 0.66, "primary_completed": 2.21, "lower_secondary_completed": 7.51, "upper_secondary_completed": 15.32, "post_secondary_completed": 10.18 },
+      "2035": { "no_education": 0.45, "primary_completed": 1.71, "lower_secondary_completed": 6.78, "upper_secondary_completed": 15.75, "post_secondary_completed": 12.05 }
+    }
+  }
+}

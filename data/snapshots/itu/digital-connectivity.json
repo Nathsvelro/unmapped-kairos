@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "source": "ITU Digital Development DataHub",
+    "source_url": "https://datahub.itu.int/",
+    "data_year": 2023,
+    "indicators": {
+      "mobile_broadband_subs_per_100": "Active mobile-broadband subscriptions per 100 inhabitants",
+      "internet_users_pct": "Individuals using the Internet (%)",
+      "fixed_broadband_subs_per_100": "Fixed-broadband subscriptions per 100 inhabitants",
+      "ict_index_score": "Composite digital readiness score (0-1, Unmapped Kairos-derived)"
+    }
+  },
+  "data": {
+    "GH": {
+      "mobile_broadband_subs_per_100": 83.0,
+      "internet_users_pct": 58.0,
+      "fixed_broadband_subs_per_100": 0.7,
+      "ict_index_score": 0.42
+    },
+    "BD": {
+      "mobile_broadband_subs_per_100": 62.0,
+      "internet_users_pct": 38.0,
+      "fixed_broadband_subs_per_100": 8.6,
+      "ict_index_score": 0.38
+    },
+    "MX": {
+      "mobile_broadband_subs_per_100": 88.0,
+      "internet_users_pct": 78.0,
+      "fixed_broadband_subs_per_100": 19.6,
+      "ict_index_score": 0.62
+    },
+    "BR": {
+      "mobile_broadband_subs_per_100": 96.0,
+      "internet_users_pct": 84.0,
+      "fixed_broadband_subs_per_100": 22.4,
+      "ict_index_score": 0.71
+    }
+  }
+}

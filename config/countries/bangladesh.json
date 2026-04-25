@@ -1,0 +1,69 @@
+{
+  "id": "BD",
+  "displayName": {
+    "en": "Bangladesh",
+    "bn": "বাংলাদেশ"
+  },
+  "locale": {
+    "primary": "bn",
+    "fallback": "en",
+    "script": "Beng",
+    "rtl": false
+  },
+  "educationTaxonomy": {
+    "scheme": "ISCED-2011",
+    "levels": [
+      { "id": "none", "label": { "en": "No formal education" }, "iscedEquivalent": 0 },
+      { "id": "primary", "label": { "en": "Primary (Class 1-5)", "bn": "প্রাথমিক" }, "iscedEquivalent": 1, "durationYears": 5 },
+      { "id": "jsc", "label": { "en": "Junior School Certificate", "bn": "জেএসসি" }, "iscedEquivalent": 2, "durationYears": 3 },
+      { "id": "ssc", "label": { "en": "Secondary School Certificate (SSC)", "bn": "এসএসসি" }, "iscedEquivalent": 3, "durationYears": 2 },
+      { "id": "hsc", "label": { "en": "Higher Secondary Certificate (HSC)", "bn": "এইচএসসি" }, "iscedEquivalent": 3, "durationYears": 2 },
+      { "id": "diploma", "label": { "en": "Diploma in Engineering / Polytechnic" }, "iscedEquivalent": 5, "durationYears": 4 },
+      { "id": "bachelor", "label": { "en": "Bachelor's degree" }, "iscedEquivalent": 6 },
+      { "id": "master", "label": { "en": "Master's degree" }, "iscedEquivalent": 7 }
+    ],
+    "credentialMap": {
+      "PSC": { "iscedLevel": 1 },
+      "JSC": { "iscedLevel": 2 },
+      "SSC": { "iscedLevel": 3 },
+      "HSC": { "iscedLevel": 3 },
+      "Dakhil": { "iscedLevel": 3, "notes": { "en": "Madrasah equivalent of SSC" } },
+      "Alim": { "iscedLevel": 3, "notes": { "en": "Madrasah equivalent of HSC" } },
+      "Diploma in Engineering": { "iscedLevel": 5 }
+    }
+  },
+  "laborMarket": {
+    "sectorScheme": "ISIC-Rev4",
+    "currency": "BDT",
+    "wageUnit": "monthly",
+    "adapters": {
+      "wages": "ilostat",
+      "employment": "wdi",
+      "informality": "data360-informality",
+      "genderGap": "wbl",
+      "digitalConnectivity": "itu"
+    }
+  },
+  "automation": {
+    "baseline": "frey-osborne",
+    "calibration": {
+      "digitalInfraScore": 0.38,
+      "taskCompositionSource": "ilo-future-of-work",
+      "alpha": 0.40,
+      "beta": 0.22
+    }
+  },
+  "opportunityTypes": ["self-employment", "gig", "formal", "training"],
+  "constraints": {
+    "avgBandwidthKbps": 2400,
+    "sharedDeviceLikelihood": 0.48,
+    "primaryAccessMode": "smartphone"
+  },
+  "meta": {
+    "sourcesYear": 2024,
+    "lastUpdated": "2025-12-15",
+    "notes": {
+      "en": "Calibration tuned for rural agricultural and peri-urban garments-sector youth labor markets."
+    }
+  }
+}

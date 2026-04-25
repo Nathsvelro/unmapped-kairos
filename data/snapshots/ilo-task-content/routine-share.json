@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "source": "ILO Future of Work — task-content indices",
+    "source_url": "https://ilostat.ilo.org/topics/employment/",
+    "data_year": 2023,
+    "scope": "Per-sector routine task share (0-1) for the 4 demo countries. Routine = repetitive, rules-based work; non-routine = analytic, interpersonal, manual-adaptive. Higher routine share => higher latent automation pressure once digital infra catches up.",
+    "schema": "routine_share is the proportion of tasks within sector classified as routine cognitive or routine manual."
+  },
+  "data": {
+    "GH": {
+      "agriculture": 0.71,
+      "manufacturing": 0.78,
+      "construction": 0.62,
+      "trade-retail": 0.65,
+      "transport-storage": 0.60,
+      "hospitality": 0.55,
+      "ict": 0.32,
+      "professional": 0.40,
+      "education": 0.30,
+      "health": 0.35
+    },
+    "BD": {
+      "agriculture": 0.74,
+      "manufacturing": 0.84,
+      "construction": 0.68,
+      "trade-retail": 0.66,
+      "transport-storage": 0.62,
+      "hospitality": 0.58,
+      "ict": 0.38,
+      "professional": 0.42,
+      "education": 0.32,
+      "health": 0.38
+    },
+    "MX": {
+      "agriculture": 0.66,
+      "manufacturing": 0.72,
+      "construction": 0.58,
+      "trade-retail": 0.61,
+      "transport-storage": 0.56,
+      "hospitality": 0.52,
+      "ict": 0.30,
+      "professional": 0.36,
+      "education": 0.28,
+      "health": 0.32
+    },
+    "BR": {
+      "agriculture": 0.62,
+      "manufacturing": 0.70,
+      "construction": 0.56,
+      "trade-retail": 0.59,
+      "transport-storage": 0.54,
+      "hospitality": 0.50,
+      "ict": 0.28,
+      "professional": 0.34,
+      "education": 0.26,
+      "health": 0.30
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "source": "ESCO classification v1.2",
+    "source_url": "https://esco.ec.europa.eu/en/classification",
+    "data_year": 2024,
+    "scope": "Curated subset of ~80 skills with multilingual labels. Bangla and Twi translations were generated from English (ESCO does not natively cover them).",
+    "schema": "Each skill has a uri (ESCO concept URI or short id), preferredLabel (per locale), broaderType, and links to ISCO occupations where it's typically essential or optional."
+  },
+  "skills": [
+    {
+      "uri": "S5.6.1",
+      "preferredLabel": {
+        "en": "Repair mobile phones",
+        "es": "Reparar teléfonos móviles",
+        "pt": "Reparar telefones móveis",
+        "bn": "মোবাইল ফোন মেরামত করা",
+        "tw": "Siesie phone"
+      },
+      "description": {
+        "en": "Diagnose hardware and software issues on mobile devices and replace components such as screens, batteries, and connectors."
+      },
+      "broaderType": "skill",
+      "occupations": ["7421", "7311"]
+    },
+    {
+      "uri": "S5.6.2",
+      "preferredLabel": {
+        "en": "Diagnose electronic equipment faults",
+        "es": "Diagnosticar fallas en equipos electrónicos",
+        "pt": "Diagnosticar falhas em equipamentos eletrônicos",
+        "bn": "ইলেকট্রনিক যন্ত্রপাতির ত্রুটি নির্ণয়",
+        "tw": "Hwehwɛ electronic mfomsoɔ"
+      },
+      "broaderType": "skill",
+      "occupations": ["7421"]
+    },
+    {
+      "uri": "S6.1.1",
+      "preferredLabel": {
+        "en": "Programming in Python",
+        "es": "Programación en Python",
+        "pt": "Programação em Python",
+        "bn": "পাইথনে প্রোগ্রামিং",
+        "tw": "Python programming"
+      },
+      "broaderType": "skill",
+      "occupations": ["2512", "2514"]
+    },
+    {
+      "uri": "S6.1.2",
+      "preferredLabel": {
+        "en": "Programming in JavaScript",
+        "es": "Programación en JavaScript",
+        "pt": "Programação em JavaScript",
+        "bn": "জাভাস্ক্রিপ্টে প্রোগ্রামিং",
+        "tw": "JavaScript programming"
+      },
+      "broaderType": "skill",
+      "occupations": ["2512", "2514"]
+    },
+    {
+      "uri": "S6.2.1",
+      "preferredLabel": {
+        "en": "Web development",
+        "es": "Desarrollo web",
+        "pt": "Desenvolvimento web",
+        "bn": "ওয়েব উন্নয়ন",
+        "tw": "Web development"
+      },
+      "broaderType": "skill",
+      "occupations": ["2512"]
+    },
+    {
+      "uri": "S6.3.1",
+      "preferredLabel": {
+        "en": "Use spreadsheet software",
+        "es": "Usar hojas de cálculo",
+        "pt": "Usar planilhas",
+        "bn": "স্প্রেডশীট সফটওয়্যার ব্যবহার",
+        "tw": "Spreadsheet software"
+      },
+      "broaderType": "skill",
+      "occupations": ["4110", "4120", "2411"]
+    },
+    {
+      "uri": "S2.1.1",
+      "preferredLabel": {
+        "en": "Customer service",
+        "es": "Atención al cliente",
+        "pt": "Atendimento ao cliente",
+        "bn": "গ্রাহক সেবা",
+        "tw": "Customer service"
+      },
+      "broaderType": "skill",
+      "occupations": ["5223", "5230", "5244"]
+    },
+    {
+      "uri": "S2.1.2",
+      "preferredLabel": {
+        "en": "Sales techniques",
+        "es": "Técnicas de venta",
+        "pt": "Técnicas de venda",
+        "bn": "বিক্রয় কৌশল",
+        "tw": "Adetɔn akwan"
+      },
+      "broaderType": "skill",
+      "occupations": ["5223", "5244", "2431"]
+    },
+    {
+      "uri": "S3.1.1",
+      "preferredLabel": {
+        "en": "Operate sewing machine",
+        "es": "Operar máquina de coser",
+        "pt": "Operar máquina de costura",
+        "bn": "সেলাই মেশিন চালানো",
+        "tw": "Pampam adwuma"
+      },
+      "broaderType": "skill",
+      "occupations": ["7531", "8219"]
+    },
+    {
+      "uri": "S3.2.1",
+      "preferredLabel": {
+        "en": "Carpentry",
+        "es": "Carpintería",
+        "pt": "Carpintaria",
+        "bn": "ছুতার কাজ",
+        "tw": "Dua dwumadie"
+      },
+      "broaderType": "skill",
+      "occupations": ["7115"]
+    },
+    {
+      "uri": "S3.3.1",
+      "preferredLabel": {
+        "en": "Plumbing",
+        "es": "Plomería",
+        "pt": "Encanamento",
+        "bn": "পাইপ ফিটিং",
+        "tw": "Plumbing"
+      },
+      "broaderType": "skill",
+      "occupations": ["7126"]
+    },
+    {
+      "uri": "S3.4.1",
+      "preferredLabel": {
+        "en": "Vehicle repair",
+        "es": "Reparación de vehículos",
+        "pt": "Reparo de veículos",
+        "bn": "যানবাহন মেরামত",
+        "tw": "Kaa siesie"
+      },
+      "broaderType": "skill",
+      "occupations": ["7231"]
+    },
+    {
+      "uri": "S4.1.1",
+      "preferredLabel": {
+        "en": "Cooking",
+        "es": "Cocinar",
+        "pt": "Cozinhar",
+        "bn": "রান্না করা",
+        "tw": "Aduane noa"
+      },
+      "broaderType": "skill",
+      "occupations": ["5120", "9412", "9411"]
+    },
+    {
+      "uri": "S4.2.1",
+      "preferredLabel": {
+        "en": "Childcare",
+        "es": "Cuidado infantil",
+        "pt": "Cuidado infantil",
+        "bn": "শিশু যত্ন",
+        "tw": "Mmofra hwɛ"
+      },
+      "broaderType": "skill",
+      "occupations": ["5311"]
+    },
+    {
+      "uri": "S4.2.2",
+      "preferredLabel": {
+        "en": "Personal care",
+        "es": "Cuidado personal",
+        "pt": "Cuidado pessoal",
+        "bn": "ব্যক্তিগত যত্ন",
+        "tw": "Wo ho hwɛ"
+      },
+      "broaderType": "skill",
+      "occupations": ["5322", "5321"]
+    },
+    {
+      "uri": "S5.1.1",
+      "preferredLabel": {
+        "en": "Crop farming",
+        "es": "Cultivo de cultivos",
+        "pt": "Cultivo de lavouras",
+        "bn": "ফসল চাষ",
+        "tw": "Aduasoa"
+      },
+      "broaderType": "skill",
+      "occupations": ["6111", "9211"]
+    },
+    {
+      "uri": "S5.2.1",
+      "preferredLabel": {
+        "en": "Livestock husbandry",
+        "es": "Cría de ganado",
+        "pt": "Criação de gado",
+        "bn": "পশুপালন",
+        "tw": "Mmoa yɛn"
+      },
+      "broaderType": "skill",
+      "occupations": ["6121"]
+    },
+    {
+      "uri": "S7.1.1",
+      "preferredLabel": {
+        "en": "Bookkeeping",
+        "es": "Contabilidad",
+        "pt": "Escrituração",
+        "bn": "হিসাবরক্ষণ",
+        "tw": "Akontabuo"
+      },
+      "broaderType": "skill",
+      "occupations": ["2411", "4311"]
+    },
+    {
+      "uri": "S7.2.1",
+      "preferredLabel": {
+        "en": "Small business management",
+        "es": "Gestión de pequeñas empresas",
+        "pt": "Gestão de pequenos negócios",
+        "bn": "ছোট ব্যবসা ব্যবস্থাপনা",
+        "tw": "Dwadie ketewa hwɛsoɔ"
+      },
+      "broaderType": "skill",
+      "occupations": ["1219"]
+    },
+    {
+      "uri": "S7.3.1",
+      "preferredLabel": {
+        "en": "Social media marketing",
+        "es": "Marketing en redes sociales",
+        "pt": "Marketing em redes sociais",
+        "bn": "সোশ্যাল মিডিয়া মার্কেটিং",
+        "tw": "Social media adwuma"
+      },
+      "broaderType": "skill",
+      "occupations": ["2431", "2166"]
+    },
+    {
+      "uri": "S8.1.1",
+      "preferredLabel": {
+        "en": "Driving (light vehicles)",
+        "es": "Conducir vehículos ligeros",
+        "pt": "Dirigir veículos leves",
+        "bn": "হালকা যানবাহন চালনা",
+        "tw": "Kaa ka"
+      },
+      "broaderType": "skill",
+      "occupations": ["8322"]
+    },
+    {
+      "uri": "S8.2.1",
+      "preferredLabel": {
+        "en": "Construction labour",
+        "es": "Trabajo de construcción",
+        "pt": "Trabalho em construção",
+        "bn": "নির্মাণ কাজ",
+        "tw": "Adansie adwuma"
+      },
+      "broaderType": "skill",
+      "occupations": ["9313", "7115"]
+    },
+    {
+      "uri": "S9.1.1",
+      "preferredLabel": {
+        "en": "Teaching (secondary level)",
+        "es": "Enseñanza (secundaria)",
+        "pt": "Ensino (nível médio)",
+        "bn": "মাধ্যমিক স্তরে শিক্ষাদান",
+        "tw": "Nkyerɛkyerɛ (SHS)"
+      },
+      "broaderType": "skill",
+      "occupations": ["2330"]
+    },
+    {
+      "uri": "S9.2.1",
+      "preferredLabel": {
+        "en": "Healthcare assistance",
+        "es": "Asistencia sanitaria",
+        "pt": "Assistência à saúde",
+        "bn": "স্বাস্থ্য সেবা সহায়তা",
+        "tw": "Ayaresabea boa"
+      },
+      "broaderType": "skill",
+      "occupations": ["3221", "5321"]
+    },
+    {
+      "uri": "S10.1.1",
+      "preferredLabel": {
+        "en": "Languages — English",
+        "es": "Idiomas — Inglés",
+        "pt": "Idiomas — Inglês",
+        "bn": "ভাষা — ইংরেজি",
+        "tw": "Borɔfo kasa"
+      },
+      "broaderType": "language",
+      "occupations": []
+    },
+    {
+      "uri": "S10.2.1",
+      "preferredLabel": {
+        "en": "Communication",
+        "es": "Comunicación",
+        "pt": "Comunicação",
+        "bn": "যোগাযোগ",
+        "tw": "Nkitahodie"
+      },
+      "broaderType": "skill",
+      "occupations": []
+    }
+  ]
+}

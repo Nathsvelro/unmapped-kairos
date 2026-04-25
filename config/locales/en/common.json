@@ -1,0 +1,107 @@
+{
+  "appName": "Unmapped Kairos",
+  "tagline": "Closing the distance between real skills and real opportunity",
+  "nav": {
+    "intake": "Build profile",
+    "profile": "My profile",
+    "readiness": "AI readiness",
+    "opportunities": "Opportunities",
+    "dashboard": "Policy dashboard",
+    "switchCountry": "Switch country"
+  },
+  "country": {
+    "pickerTitle": "Choose your country",
+    "pickerSubtitle": "Unmapped Kairos reconfigures itself for your local labor market, education system, currency, and language. Pick where you live."
+  },
+  "intake": {
+    "title": "Tell us what you can do",
+    "subtitle": "Your skills are real even if no one wrote them down. We'll help you put them on paper — and you stay in charge of every word.",
+    "stepEducation": "Education",
+    "stepLanguages": "Languages",
+    "stepExperience": "Experience",
+    "stepReview": "Review",
+    "educationPrompt": "What's the highest level of education you completed?",
+    "credentialPrompt": "Did you receive a specific certificate or diploma?",
+    "credentialPlaceholder": "e.g. SSC, WAEC, Bachillerato",
+    "languagesPrompt": "Which languages can you use at work?",
+    "addLanguage": "Add a language",
+    "experiencePrompt": "Tell us about things you can do — work you've done for money, things you've taught yourself, projects you've built.",
+    "experiencePlaceholder": "e.g. I've fixed phones for 5 years. I learned Python from YouTube. I run a small WhatsApp business.",
+    "addExperience": "Add another",
+    "yearsLabel": "Years",
+    "proficiencyLabel": "How well",
+    "next": "Next",
+    "back": "Back",
+    "buildProfile": "Build my profile",
+    "analyzing": "Analyzing what you can do…"
+  },
+  "profile": {
+    "title": "Your profile",
+    "subtitle": "This is yours. Edit anything that doesn't sound right. Export it as a JSON passport you can take anywhere.",
+    "credentialsHeading": "Credentials",
+    "languagesHeading": "Languages",
+    "skillsHeading": "Skills",
+    "yourWords": "Your words",
+    "weHeard": "What we mapped this to",
+    "confidence": "confidence",
+    "confirm": "Looks right",
+    "edit": "Edit",
+    "remove": "Remove",
+    "exportJson": "Export JSON passport",
+    "importJson": "Import a profile",
+    "viewReadiness": "See AI readiness",
+    "viewOpportunities": "See opportunities",
+    "noProfile": "No profile yet",
+    "buildOne": "Build one"
+  },
+  "readiness": {
+    "title": "AI readiness",
+    "subtitle": "An honest look at which parts of your work are at automation risk in {country}, and what skills are durable.",
+    "riskMix": "Your task mix",
+    "highRisk": "High automation risk",
+    "mediumRisk": "Medium risk",
+    "durable": "Durable",
+    "calibrationHeading": "How we calibrated for {country}",
+    "calibrationBody": "Frey-Osborne automation scores were dampened by {alphaPct}% to reflect the country's digital infrastructure score of {infra}. Routine task share added {betaPct}% uplift.",
+    "adjacentSkillsHeading": "Adjacent durable skills you could reach",
+    "reachableIn": "Reachable in {months} months",
+    "trajectoryHeading": "Where {country}'s education is heading (2025–2035)",
+    "trajectoryFootnote": "Source: Wittgenstein Centre education projections."
+  },
+  "opportunities": {
+    "title": "Opportunities you can reach",
+    "subtitle": "Honest matches based on what you can do today and what {country}'s labor market actually pays and hires.",
+    "wageMedian": "Median monthly pay",
+    "sectorGrowth": "Sector employment growth",
+    "reachableLabel": "Reachability",
+    "now": "Available now",
+    "shortTerm": "0–3 months",
+    "mediumTerm": "3–12 months",
+    "longTerm": "12+ months",
+    "noMatches": "We couldn't find honest matches yet — try adding a few more skills to your profile.",
+    "filterAll": "All types",
+    "sourceLabel": "Source",
+    "yearLabel": "Year"
+  },
+  "dashboard": {
+    "title": "Policy dashboard — {country}",
+    "subtitle": "Aggregate signals on the youth labor market. Built for program officers, not just dashboards.",
+    "neet": "Youth not in education, employment or training (NEET)",
+    "informality": "Informal employment share",
+    "wageEmployment": "Wage & salaried workers (% of employment)",
+    "empToPop": "Employment-to-population ratio (15+)",
+    "gdpGrowth": "GDP per capita growth (annual %)",
+    "skillSupplyDemand": "Skill-supply vs. sector-demand gap",
+    "educationProjection": "Education stock projection (2025–2035)"
+  },
+  "common": {
+    "source": "Source",
+    "lastUpdated": "Last updated",
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "retry": "Retry"
+  },
+  "constraints": {
+    "lowBandwidthNotice": "Built to work on slow connections and shared devices. No login required."
+  }
+}

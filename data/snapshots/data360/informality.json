@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "source": "World Bank Data360 / ILO",
+    "source_url": "https://data360.worldbank.org/en/indicator/WB_GS_SL_ISV_IFRM_ZS",
+    "indicator": "Informal employment (% of total non-agricultural employment)",
+    "data_year": 2023
+  },
+  "data": {
+    "GH": { "informal_share_pct": 78.0 },
+    "BD": { "informal_share_pct": 88.4 },
+    "MX": { "informal_share_pct": 54.8 },
+    "BR": { "informal_share_pct": 36.5 }
+  }
+}

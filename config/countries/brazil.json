@@ -1,0 +1,71 @@
+{
+  "id": "BR",
+  "displayName": {
+    "en": "Brazil",
+    "pt": "Brasil"
+  },
+  "locale": {
+    "primary": "pt",
+    "fallback": "en",
+    "script": "Latn",
+    "rtl": false
+  },
+  "educationTaxonomy": {
+    "scheme": "ISCED-2011",
+    "levels": [
+      { "id": "none", "label": { "en": "No formal education", "pt": "Sem educação formal" }, "iscedEquivalent": 0 },
+      { "id": "fundamental1", "label": { "en": "Fundamental I (Anos Iniciais)", "pt": "Fundamental I" }, "iscedEquivalent": 1, "durationYears": 5 },
+      { "id": "fundamental2", "label": { "en": "Fundamental II (Anos Finais)", "pt": "Fundamental II" }, "iscedEquivalent": 2, "durationYears": 4 },
+      { "id": "medio", "label": { "en": "Ensino Médio (high school)", "pt": "Ensino Médio" }, "iscedEquivalent": 3, "durationYears": 3 },
+      { "id": "tecnico", "label": { "en": "Curso Técnico", "pt": "Técnico" }, "iscedEquivalent": 4 },
+      { "id": "tecnologo", "label": { "en": "Tecnólogo (short-cycle higher ed)", "pt": "Tecnólogo" }, "iscedEquivalent": 5, "durationYears": 3 },
+      { "id": "graduacao", "label": { "en": "Bachelor's (Graduação)", "pt": "Graduação" }, "iscedEquivalent": 6 },
+      { "id": "mestrado", "label": { "en": "Master's (Mestrado)", "pt": "Mestrado" }, "iscedEquivalent": 7 },
+      { "id": "doutorado", "label": { "en": "Doctorate (Doutorado)", "pt": "Doutorado" }, "iscedEquivalent": 8 }
+    ],
+    "credentialMap": {
+      "Certificado Fundamental": { "iscedLevel": 2 },
+      "Ensino Médio Completo": { "iscedLevel": 3 },
+      "ENEM": { "iscedLevel": 3, "notes": { "en": "ENEM is an exit/entrance exam, not a credential, but indicates Ensino Médio completion." } },
+      "Curso Técnico": { "iscedLevel": 4 },
+      "SENAI": { "iscedLevel": 4, "notes": { "en": "Industrial training (Serviço Nacional de Aprendizagem Industrial)" } },
+      "SENAC": { "iscedLevel": 4, "notes": { "en": "Commerce training" } },
+      "Tecnólogo": { "iscedLevel": 5 },
+      "Bacharelado": { "iscedLevel": 6 }
+    }
+  },
+  "laborMarket": {
+    "sectorScheme": "CNAE",
+    "currency": "BRL",
+    "wageUnit": "monthly",
+    "adapters": {
+      "wages": "ilostat",
+      "employment": "wdi",
+      "informality": "data360-informality",
+      "genderGap": "wbl",
+      "digitalConnectivity": "itu"
+    }
+  },
+  "automation": {
+    "baseline": "frey-osborne",
+    "calibration": {
+      "digitalInfraScore": 0.71,
+      "taskCompositionSource": "ilo-future-of-work",
+      "alpha": 0.15,
+      "beta": 0.12
+    }
+  },
+  "opportunityTypes": ["formal", "self-employment", "gig", "training"],
+  "constraints": {
+    "avgBandwidthKbps": 8200,
+    "sharedDeviceLikelihood": 0.28,
+    "primaryAccessMode": "smartphone"
+  },
+  "meta": {
+    "sourcesYear": 2024,
+    "lastUpdated": "2025-12-15",
+    "notes": {
+      "en": "Brazilian calibration uses CNAE 2.0 sector classification and accounts for relatively strong digital infrastructure with persistent regional divergence."
+    }
+  }
+}

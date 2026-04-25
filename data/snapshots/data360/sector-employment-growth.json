@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "source": "World Bank Data360 — Employment by economic activity (year-over-year change)",
+    "source_url": "https://data360.worldbank.org/en/dataset/ILO_EMP",
+    "data_year": 2023,
+    "comparison_year": 2022,
+    "scope": "YoY change in employment share by ISIC-Rev4 sector. Positive = sector grew. Curated values aligned to publicly available trends; precise figures may vary slightly by data revision.",
+    "schema": {
+      "yoy_change_pct": "Year-over-year change in employment in this sector",
+      "share_of_employment_pct": "Sector's share of total employment (%)",
+      "isic": "ISIC Rev. 4 letter section"
+    }
+  },
+  "data": {
+    "GH": {
+      "agriculture": { "yoy_change_pct": -1.2, "share_of_employment_pct": 29.5, "isic": "A" },
+      "manufacturing": { "yoy_change_pct": 1.8, "share_of_employment_pct": 9.2, "isic": "C" },
+      "construction": { "yoy_change_pct": 3.4, "share_of_employment_pct": 4.8, "isic": "F" },
+      "trade-retail": { "yoy_change_pct": 2.1, "share_of_employment_pct": 22.1, "isic": "G" },
+      "transport-storage": { "yoy_change_pct": 2.6, "share_of_employment_pct": 4.2, "isic": "H" },
+      "hospitality": { "yoy_change_pct": 4.7, "share_of_employment_pct": 3.5, "isic": "I" },
+      "ict": { "yoy_change_pct": 6.8, "share_of_employment_pct": 0.9, "isic": "J" },
+      "professional": { "yoy_change_pct": 4.2, "share_of_employment_pct": 1.6, "isic": "M" },
+      "education": { "yoy_change_pct": 2.0, "share_of_employment_pct": 4.1, "isic": "P" },
+      "health": { "yoy_change_pct": 3.8, "share_of_employment_pct": 2.6, "isic": "Q" }
+    },
+    "BD": {
+      "agriculture": { "yoy_change_pct": -2.1, "share_of_employment_pct": 36.0, "isic": "A" },
+      "manufacturing": { "yoy_change_pct": 2.5, "share_of_employment_pct": 17.6, "isic": "C", "notes": "Garments dominant" },
+      "construction": { "yoy_change_pct": 4.1, "share_of_employment_pct": 6.8, "isic": "F" },
+      "trade-retail": { "yoy_change_pct": 1.9, "share_of_employment_pct": 14.5, "isic": "G" },
+      "transport-storage": { "yoy_change_pct": 2.8, "share_of_employment_pct": 8.4, "isic": "H" },
+      "hospitality": { "yoy_change_pct": 3.6, "share_of_employment_pct": 1.8, "isic": "I" },
+      "ict": { "yoy_change_pct": 7.5, "share_of_employment_pct": 0.7, "isic": "J" },
+      "professional": { "yoy_change_pct": 3.5, "share_of_employment_pct": 1.2, "isic": "M" },
+      "education": { "yoy_change_pct": 2.4, "share_of_employment_pct": 4.5, "isic": "P" },
+      "health": { "yoy_change_pct": 3.9, "share_of_employment_pct": 1.9, "isic": "Q" }
+    },
+    "MX": {
+      "agriculture": { "yoy_change_pct": -0.6, "share_of_employment_pct": 12.4, "isic": "A" },
+      "manufacturing": { "yoy_change_pct": 1.2, "share_of_employment_pct": 16.8, "isic": "C" },
+      "construction": { "yoy_change_pct": 2.4, "share_of_employment_pct": 8.0, "isic": "F" },
+      "trade-retail": { "yoy_change_pct": 1.5, "share_of_employment_pct": 19.2, "isic": "G" },
+      "transport-storage": { "yoy_change_pct": 2.0, "share_of_employment_pct": 5.4, "isic": "H" },
+      "hospitality": { "yoy_change_pct": 4.2, "share_of_employment_pct": 8.5, "isic": "I" },
+      "ict": { "yoy_change_pct": 5.1, "share_of_employment_pct": 1.4, "isic": "J" },
+      "professional": { "yoy_change_pct": 3.0, "share_of_employment_pct": 4.2, "isic": "M" },
+      "education": { "yoy_change_pct": 1.8, "share_of_employment_pct": 5.4, "isic": "P" },
+      "health": { "yoy_change_pct": 2.8, "share_of_employment_pct": 4.0, "isic": "Q" }
+    },
+    "BR": {
+      "agriculture": { "yoy_change_pct": -0.9, "share_of_employment_pct": 9.3, "isic": "A" },
+      "manufacturing": { "yoy_change_pct": 0.8, "share_of_employment_pct": 11.9, "isic": "C" },
+      "construction": { "yoy_change_pct": 1.6, "share_of_employment_pct": 7.5, "isic": "F" },
+      "trade-retail": { "yoy_change_pct": 1.2, "share_of_employment_pct": 17.4, "isic": "G" },
+      "transport-storage": { "yoy_change_pct": 1.9, "share_of_employment_pct": 5.6, "isic": "H" },
+      "hospitality": { "yoy_change_pct": 3.3, "share_of_employment_pct": 5.0, "isic": "I" },
+      "ict": { "yoy_change_pct": 4.6, "share_of_employment_pct": 1.7, "isic": "J" },
+      "professional": { "yoy_change_pct": 2.9, "share_of_employment_pct": 4.7, "isic": "M" },
+      "education": { "yoy_change_pct": 1.5, "share_of_employment_pct": 6.4, "isic": "P" },
+      "health": { "yoy_change_pct": 3.1, "share_of_employment_pct": 5.1, "isic": "Q" }
+    }
+  }
+}

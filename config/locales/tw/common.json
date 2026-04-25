@@ -1,0 +1,107 @@
+{
+  "appName": "Unmapped Kairos",
+  "tagline": "Yɛyɛ kwan a ɛda nokware nimdeɛ ne adwumayɛ akwan ntam",
+  "nav": {
+    "intake": "Yɛ profile",
+    "profile": "Me profile",
+    "readiness": "AI ahoboaboa",
+    "opportunities": "Akwan ho",
+    "dashboard": "Amammuo dashboard",
+    "switchCountry": "Sesa ɔman"
+  },
+  "country": {
+    "pickerTitle": "Yi wo ɔman",
+    "pickerSubtitle": "Unmapped Kairos bɛsesa ne ho ama wo adwuma akwan, sukuu nhyehyɛeɛ, sika, ne kasa. Yi baabi a wote."
+  },
+  "intake": {
+    "title": "Ka deɛ wotumi yɛ kyerɛ yɛn",
+    "subtitle": "Wo nimdeɛ wɔ hɔ, sɛ obi twerɛɛ no anaa ɛnyɛ. Yɛbɛboa wo ama wode atwerɛ — na wo ara na wokyerɛ asɛm biara.",
+    "stepEducation": "Sukuu",
+    "stepLanguages": "Kasa",
+    "stepExperience": "Osuahu",
+    "stepReview": "Hwɛ",
+    "educationPrompt": "Sukuu beberee a wodii ɛyɛ deɛn?",
+    "credentialPrompt": "Wonyaa krataa anaa diploma pɔtee bi?",
+    "credentialPlaceholder": "Sɛ WASSCE, BECE, HND",
+    "languagesPrompt": "Kasa bɛn na wotumi de yɛ adwuma?",
+    "addLanguage": "Fa kasa foforɔ ka ho",
+    "experiencePrompt": "Ka nneɛma a wotumi yɛ — adwuma a woayɛ agye sika, nneɛma a wo ara woasua, anaa nnwuma a woayɛ.",
+    "experiencePlaceholder": "Sɛ: M'asiesie phone mfeɛ 5. Mesuaa Python firi YouTube. Mewɔ WhatsApp dwadie ketewa bi.",
+    "addExperience": "Fa bi ka ho",
+    "yearsLabel": "Mfeɛ",
+    "proficiencyLabel": "Sɛdeɛ wonim",
+    "next": "Toa so",
+    "back": "San kɔ",
+    "buildProfile": "Yɛ me profile",
+    "analyzing": "Yɛrehwɛ deɛ wotumi yɛ…"
+  },
+  "profile": {
+    "title": "Wo profile",
+    "subtitle": "Yei yɛ wo dea. Sesa biribiara a ɛnte sɛ ɛyɛ nokware. Tu ho yi sɛ JSON passport a wode bɛkɔ baabiara.",
+    "credentialsHeading": "Akrataa",
+    "languagesHeading": "Kasa",
+    "skillsHeading": "Nimdeɛ",
+    "yourWords": "Wo nsɛm",
+    "weHeard": "Deɛ yɛde maa no",
+    "confidence": "gyidie",
+    "confirm": "Ɛyɛ",
+    "edit": "Sesa",
+    "remove": "Yi fi hɔ",
+    "exportJson": "Tu JSON passport",
+    "importJson": "Fa profile bra",
+    "viewReadiness": "Hwɛ AI ahoboaboa",
+    "viewOpportunities": "Hwɛ akwan",
+    "noProfile": "Profile biara nni hɔ",
+    "buildOne": "Yɛ bi"
+  },
+  "readiness": {
+    "title": "AI ahoboaboa",
+    "subtitle": "Nokware nhwɛ ho a wodi adwuma fa a mfiri-asetena tumi gye wɔ {country}, ne nimdeɛ a ɛbɛtena hɔ.",
+    "riskMix": "Wo adwuma fa",
+    "highRisk": "Mfiri-asetena yɛ kɛseɛ",
+    "mediumRisk": "Mfiri-asetena yɛ ntam",
+    "durable": "Ɛbɛtena hɔ",
+    "calibrationHeading": "Sɛdeɛ yɛ-tete maa {country}",
+    "calibrationBody": "Yɛtee Frey-Osborne mfiri-asetena nkyerɛkyerɛmu so {alphaPct}% sɛnea ɔman no nsesa-mu nkitahodie {infra} kyerɛ. Adwuma a ɛsesa biara hyɛ fam de {betaPct}% kaa ho.",
+    "adjacentSkillsHeading": "Nimdeɛ a ɛbɛn a wobɛtumi anya",
+    "reachableIn": "Wobɛtumi anya wɔ abosome {months} mu",
+    "trajectoryHeading": "Baabi a {country} sukuu rekɔ (2025–2035)",
+    "trajectoryFootnote": "Firi: Wittgenstein Centre sukuu nhwɛ."
+  },
+  "opportunities": {
+    "title": "Akwan a wobɛtumi anya",
+    "subtitle": "Nokware nhwɛ a egyina deɛ wotumi yɛ ɛnnɛ ne deɛ {country} adwuma akwan tua na wɔfa adwumayɛfoɔ so.",
+    "wageMedian": "Bosome akatua a ɛyɛ mfimfini",
+    "sectorGrowth": "Adwuma fa nyini",
+    "reachableLabel": "Wobɛtumi anya",
+    "now": "Ɛwɔ hɔ ɛnnɛ",
+    "shortTerm": "Abosome 0–3",
+    "mediumTerm": "Abosome 3–12",
+    "longTerm": "Abosome 12+",
+    "noMatches": "Yɛnhuu nokware nhyehyɛe biara — sɛ wode nimdeɛ pii ka wo profile ho a, ɛbɛboa.",
+    "filterAll": "Ne nyinaa",
+    "sourceLabel": "Firi",
+    "yearLabel": "Afe"
+  },
+  "dashboard": {
+    "title": "Amammuo dashboard — {country}",
+    "subtitle": "Mmofra adwuma akwan ho nsɛm a ɛkɔ mu. Yɛyɛɛ no maa nnwumakuo, ɛnyɛ dashboard kɛkɛ.",
+    "neet": "Mmabunu a wɔnni sukuu, adwuma anaa nteteeɛ mu (NEET)",
+    "informality": "Adwuma a ɛnni hɔ no fa",
+    "wageEmployment": "Adwumayɛfoɔ a wɔgye akatua (% adwuma)",
+    "empToPop": "Adwumayɛfoɔ ne nnipa dodoɔ ntam (15+)",
+    "gdpGrowth": "GDP wɔ obi so nyini (afe biara %)",
+    "skillSupplyDemand": "Nimdeɛ ne adwuma fa hia ntam",
+    "educationProjection": "Sukuu ho nhwɛ (2025–2035)"
+  },
+  "common": {
+    "source": "Firi",
+    "lastUpdated": "Akyiri sesa",
+    "loading": "Ɛrebue…",
+    "error": "Biribi ankɔ yie",
+    "retry": "Sɔ hwɛ bio"
+  },
+  "constraints": {
+    "lowBandwidthNotice": "Yɛyɛɛ no ma ɛkɔ yie wɔ nkitahodie a ɛyɛ brɛoo ne nneɛma a nnipa pii de di dwuma so. Login nho hia."
+  }
+}

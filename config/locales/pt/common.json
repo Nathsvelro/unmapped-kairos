@@ -1,0 +1,107 @@
+{
+  "appName": "Unmapped Kairos",
+  "tagline": "Diminuindo a distância entre habilidades reais e oportunidades reais",
+  "nav": {
+    "intake": "Criar perfil",
+    "profile": "Meu perfil",
+    "readiness": "Preparo para IA",
+    "opportunities": "Oportunidades",
+    "dashboard": "Painel de políticas",
+    "switchCountry": "Trocar de país"
+  },
+  "country": {
+    "pickerTitle": "Escolha seu país",
+    "pickerSubtitle": "Unmapped Kairos se reconfigura para o seu mercado de trabalho local, sistema educacional, moeda e idioma. Escolha onde você vive."
+  },
+  "intake": {
+    "title": "Conte-nos o que você sabe fazer",
+    "subtitle": "Suas habilidades são reais mesmo que ninguém as tenha registrado. Vamos ajudar você a colocá-las no papel — e você fica no comando de cada palavra.",
+    "stepEducation": "Educação",
+    "stepLanguages": "Idiomas",
+    "stepExperience": "Experiência",
+    "stepReview": "Revisar",
+    "educationPrompt": "Qual o nível mais alto de educação que você completou?",
+    "credentialPrompt": "Você recebeu algum certificado ou diploma específico?",
+    "credentialPlaceholder": "ex. Ensino Médio, Curso Técnico, Graduação",
+    "languagesPrompt": "Quais idiomas você consegue usar no trabalho?",
+    "addLanguage": "Adicionar um idioma",
+    "experiencePrompt": "Conte-nos coisas que você sabe fazer — trabalhos por dinheiro, coisas que aprendeu sozinho, projetos que construiu.",
+    "experiencePlaceholder": "ex. Conserto celulares há 5 anos. Aprendi Python no YouTube. Tenho um pequeno negócio no WhatsApp.",
+    "addExperience": "Adicionar outra",
+    "yearsLabel": "Anos",
+    "proficiencyLabel": "Quão bem",
+    "next": "Próximo",
+    "back": "Voltar",
+    "buildProfile": "Criar meu perfil",
+    "analyzing": "Analisando o que você sabe fazer…"
+  },
+  "profile": {
+    "title": "Seu perfil",
+    "subtitle": "Este é seu. Edite qualquer coisa que não soe certo. Exporte como passaporte JSON que você pode levar a qualquer lugar.",
+    "credentialsHeading": "Certificados",
+    "languagesHeading": "Idiomas",
+    "skillsHeading": "Habilidades",
+    "yourWords": "Suas palavras",
+    "weHeard": "Para o que mapeamos",
+    "confidence": "confiança",
+    "confirm": "Está certo",
+    "edit": "Editar",
+    "remove": "Remover",
+    "exportJson": "Exportar passaporte JSON",
+    "importJson": "Importar um perfil",
+    "viewReadiness": "Ver preparo para IA",
+    "viewOpportunities": "Ver oportunidades",
+    "noProfile": "Ainda sem perfil",
+    "buildOne": "Criar um"
+  },
+  "readiness": {
+    "title": "Preparo para IA",
+    "subtitle": "Um olhar honesto sobre quais partes do seu trabalho estão em risco de automação no {country}, e quais habilidades são duradouras.",
+    "riskMix": "Sua mistura de tarefas",
+    "highRisk": "Alto risco de automação",
+    "mediumRisk": "Risco médio",
+    "durable": "Duradouras",
+    "calibrationHeading": "Como calibramos para {country}",
+    "calibrationBody": "Os escores de automação Frey-Osborne foram amortecidos em {alphaPct}% para refletir o escore de infraestrutura digital do país de {infra}. A parcela de tarefas rotineiras adicionou {betaPct}% de aumento.",
+    "adjacentSkillsHeading": "Habilidades duradouras adjacentes ao seu alcance",
+    "reachableIn": "Alcançável em {months} meses",
+    "trajectoryHeading": "Para onde vai a educação no {country} (2025–2035)",
+    "trajectoryFootnote": "Fonte: Projeções educacionais do Wittgenstein Centre."
+  },
+  "opportunities": {
+    "title": "Oportunidades ao seu alcance",
+    "subtitle": "Combinações honestas baseadas no que você sabe hoje e no que o mercado de trabalho do {country} realmente paga e contrata.",
+    "wageMedian": "Renda mensal mediana",
+    "sectorGrowth": "Crescimento do emprego no setor",
+    "reachableLabel": "Alcançabilidade",
+    "now": "Disponível agora",
+    "shortTerm": "0–3 meses",
+    "mediumTerm": "3–12 meses",
+    "longTerm": "12+ meses",
+    "noMatches": "Ainda não encontramos combinações honestas — tente adicionar mais habilidades ao seu perfil.",
+    "filterAll": "Todos os tipos",
+    "sourceLabel": "Fonte",
+    "yearLabel": "Ano"
+  },
+  "dashboard": {
+    "title": "Painel de políticas — {country}",
+    "subtitle": "Sinais agregados do mercado de trabalho jovem. Construído para oficiais de programa, não apenas painéis.",
+    "neet": "Jovens que não estudam, trabalham nem se capacitam (NEET)",
+    "informality": "Parcela do emprego informal",
+    "wageEmployment": "Trabalhadores assalariados (% do emprego)",
+    "empToPop": "Razão emprego-população (15+)",
+    "gdpGrowth": "Crescimento do PIB per capita (anual %)",
+    "skillSupplyDemand": "Lacuna entre oferta de habilidades e demanda do setor",
+    "educationProjection": "Projeção do estoque educacional (2025–2035)"
+  },
+  "common": {
+    "source": "Fonte",
+    "lastUpdated": "Última atualização",
+    "loading": "Carregando…",
+    "error": "Algo deu errado",
+    "retry": "Tentar novamente"
+  },
+  "constraints": {
+    "lowBandwidthNotice": "Construído para funcionar em conexões lentas e dispositivos compartilhados. Não requer login."
+  }
+}

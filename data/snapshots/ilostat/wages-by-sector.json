@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "source": "ILO ILOSTAT — Mean nominal monthly earnings of employees by economic activity",
+    "source_url": "https://ilostat.ilo.org/topics/wages/",
+    "data_year": 2023,
+    "scope": "Median monthly earnings by ISIC-Rev4 sector, 4 demo countries. Some sector values imputed from neighboring sectors where ILOSTAT had gaps; flagged with imputed:true.",
+    "currency_unit": "Native currency, monthly"
+  },
+  "wages": {
+    "GH": {
+      "currency": "GHS",
+      "sectors": {
+        "agriculture": { "median_monthly": 900, "isic": "A" },
+        "manufacturing": { "median_monthly": 1500, "isic": "C" },
+        "construction": { "median_monthly": 1400, "isic": "F" },
+        "trade-retail": { "median_monthly": 1300, "isic": "G" },
+        "transport-storage": { "median_monthly": 1500, "isic": "H" },
+        "hospitality": { "median_monthly": 1200, "isic": "I" },
+        "ict": { "median_monthly": 3200, "isic": "J" },
+        "finance": { "median_monthly": 4100, "isic": "K", "imputed": false },
+        "professional": { "median_monthly": 2900, "isic": "M" },
+        "public-admin": { "median_monthly": 2500, "isic": "O" },
+        "education": { "median_monthly": 1800, "isic": "P" },
+        "health": { "median_monthly": 2200, "isic": "Q" },
+        "personal-services": { "median_monthly": 1100, "isic": "S", "imputed": true }
+      }
+    },
+    "BD": {
+      "currency": "BDT",
+      "sectors": {
+        "agriculture": { "median_monthly": 9500, "isic": "A" },
+        "manufacturing": { "median_monthly": 12000, "isic": "C", "notes": "Garments-heavy" },
+        "construction": { "median_monthly": 16000, "isic": "F" },
+        "trade-retail": { "median_monthly": 14000, "isic": "G" },
+        "transport-storage": { "median_monthly": 16000, "isic": "H" },
+        "hospitality": { "median_monthly": 13000, "isic": "I" },
+        "ict": { "median_monthly": 28000, "isic": "J" },
+        "finance": { "median_monthly": 35000, "isic": "K" },
+        "professional": { "median_monthly": 24000, "isic": "M" },
+        "public-admin": { "median_monthly": 28000, "isic": "O" },
+        "education": { "median_monthly": 20000, "isic": "P" },
+        "health": { "median_monthly": 22000, "isic": "Q" },
+        "personal-services": { "median_monthly": 11000, "isic": "S", "imputed": true }
+      }
+    },
+    "MX": {
+      "currency": "MXN",
+      "sectors": {
+        "agriculture": { "median_monthly": 7200, "isic": "A" },
+        "manufacturing": { "median_monthly": 10500, "isic": "C" },
+        "construction": { "median_monthly": 9500, "isic": "F" },
+        "trade-retail": { "median_monthly": 9000, "isic": "G" },
+        "transport-storage": { "median_monthly": 12000, "isic": "H" },
+        "hospitality": { "median_monthly": 8500, "isic": "I" },
+        "ict": { "median_monthly": 22000, "isic": "J" },
+        "finance": { "median_monthly": 26000, "isic": "K" },
+        "professional": { "median_monthly": 18000, "isic": "M" },
+        "public-admin": { "median_monthly": 16500, "isic": "O" },
+        "education": { "median_monthly": 13500, "isic": "P" },
+        "health": { "median_monthly": 14500, "isic": "Q" },
+        "personal-services": { "median_monthly": 8200, "isic": "S", "imputed": true }
+      }
+    },
+    "BR": {
+      "currency": "BRL",
+      "sectors": {
+        "agriculture": { "median_monthly": 1900, "isic": "A" },
+        "manufacturing": { "median_monthly": 2800, "isic": "C" },
+        "construction": { "median_monthly": 2400, "isic": "F" },
+        "trade-retail": { "median_monthly": 2200, "isic": "G" },
+        "transport-storage": { "median_monthly": 2800, "isic": "H" },
+        "hospitality": { "median_monthly": 2000, "isic": "I" },
+        "ict": { "median_monthly": 6800, "isic": "J" },
+        "finance": { "median_monthly": 8500, "isic": "K" },
+        "professional": { "median_monthly": 5400, "isic": "M" },
+        "public-admin": { "median_monthly": 5500, "isic": "O" },
+        "education": { "median_monthly": 3200, "isic": "P" },
+        "health": { "median_monthly": 3500, "isic": "Q" },
+        "personal-services": { "median_monthly": 1800, "isic": "S", "imputed": true }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "GH",
+  "displayName": {
+    "en": "Ghana",
+    "tw": "Gaana"
+  },
+  "locale": {
+    "primary": "tw",
+    "fallback": "en",
+    "script": "Latn",
+    "rtl": false
+  },
+  "educationTaxonomy": {
+    "scheme": "ISCED-2011",
+    "levels": [
+      { "id": "none", "label": { "en": "No formal education" }, "iscedEquivalent": 0 },
+      { "id": "primary", "label": { "en": "Primary (Basic 1-6)", "tw": "Mfitiase Adesua" }, "iscedEquivalent": 1, "durationYears": 6 },
+      { "id": "jhs", "label": { "en": "Junior High School (BECE)", "tw": "JHS" }, "iscedEquivalent": 2, "durationYears": 3 },
+      { "id": "shs", "label": { "en": "Senior High School (WASSCE/SSSCE)", "tw": "SHS" }, "iscedEquivalent": 3, "durationYears": 3 },
+      { "id": "tvet", "label": { "en": "TVET / Technical certificate" }, "iscedEquivalent": 4 },
+      { "id": "diploma", "label": { "en": "Diploma / HND" }, "iscedEquivalent": 5 },
+      { "id": "bachelor", "label": { "en": "Bachelor's degree" }, "iscedEquivalent": 6 },
+      { "id": "master", "label": { "en": "Master's degree" }, "iscedEquivalent": 7 }
+    ],
+    "credentialMap": {
+      "BECE": { "iscedLevel": 2 },
+      "WASSCE": { "iscedLevel": 3 },
+      "SSSCE": { "iscedLevel": 3 },
+      "WAEC SSCE": { "iscedLevel": 3, "notes": { "en": "Older West African Senior School Certificate" } },
+      "Apprenticeship Certificate": { "iscedLevel": 4 },
+      "HND": { "iscedLevel": 5 },
+      "Diploma": { "iscedLevel": 5 }
+    }
+  },
+  "laborMarket": {
+    "sectorScheme": "ISIC-Rev4",
+    "currency": "GHS",
+    "wageUnit": "monthly",
+    "adapters": {
+      "wages": "ilostat",
+      "employment": "wdi",
+      "informality": "data360-informality",
+      "genderGap": "wbl",
+      "digitalConnectivity": "itu"
+    }
+  },
+  "automation": {
+    "baseline": "frey-osborne",
+    "calibration": {
+      "digitalInfraScore": 0.42,
+      "taskCompositionSource": "ilo-future-of-work",
+      "alpha": 0.35,
+      "beta": 0.18
+    }
+  },
+  "opportunityTypes": ["self-employment", "apprenticeship", "formal", "training"],
+  "constraints": {
+    "avgBandwidthKbps": 1800,
+    "sharedDeviceLikelihood": 0.55,
+    "primaryAccessMode": "smartphone"
+  },
+  "meta": {
+    "sourcesYear": 2024,
+    "lastUpdated": "2025-12-15",
+    "notes": {
+      "en": "Calibration tuned for the urban informal economy (Greater Accra metro) which dominates youth employment outside formal sectors."
+    }
+  }
+}

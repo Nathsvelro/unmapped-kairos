@@ -1,0 +1,70 @@
+{
+  "id": "MX",
+  "displayName": {
+    "en": "Mexico",
+    "es": "México"
+  },
+  "locale": {
+    "primary": "es",
+    "fallback": "en",
+    "script": "Latn",
+    "rtl": false
+  },
+  "educationTaxonomy": {
+    "scheme": "ISCED-2011",
+    "levels": [
+      { "id": "none", "label": { "en": "No formal education", "es": "Sin educación formal" }, "iscedEquivalent": 0 },
+      { "id": "primaria", "label": { "en": "Primary (Primaria)", "es": "Primaria" }, "iscedEquivalent": 1, "durationYears": 6 },
+      { "id": "secundaria", "label": { "en": "Lower secondary (Secundaria)", "es": "Secundaria" }, "iscedEquivalent": 2, "durationYears": 3 },
+      { "id": "bachillerato", "label": { "en": "Upper secondary (Bachillerato)", "es": "Bachillerato" }, "iscedEquivalent": 3, "durationYears": 3 },
+      { "id": "tsu", "label": { "en": "Técnico Superior Universitario", "es": "TSU" }, "iscedEquivalent": 5, "durationYears": 2 },
+      { "id": "licenciatura", "label": { "en": "Bachelor's (Licenciatura)", "es": "Licenciatura" }, "iscedEquivalent": 6 },
+      { "id": "maestria", "label": { "en": "Master's (Maestría)", "es": "Maestría" }, "iscedEquivalent": 7 },
+      { "id": "doctorado", "label": { "en": "Doctorate (Doctorado)", "es": "Doctorado" }, "iscedEquivalent": 8 }
+    ],
+    "credentialMap": {
+      "Certificado de Primaria": { "iscedLevel": 1 },
+      "Certificado de Secundaria": { "iscedLevel": 2 },
+      "Certificado de Bachillerato": { "iscedLevel": 3 },
+      "Preparatoria": { "iscedLevel": 3 },
+      "CONALEP": { "iscedLevel": 3, "notes": { "en": "Technical bachillerato" } },
+      "TSU": { "iscedLevel": 5 },
+      "Licenciatura": { "iscedLevel": 6 },
+      "Ingeniería": { "iscedLevel": 6 }
+    }
+  },
+  "laborMarket": {
+    "sectorScheme": "local",
+    "currency": "MXN",
+    "wageUnit": "monthly",
+    "adapters": {
+      "wages": "ilostat",
+      "employment": "wdi",
+      "informality": "data360-informality",
+      "genderGap": "wbl",
+      "digitalConnectivity": "itu"
+    }
+  },
+  "automation": {
+    "baseline": "frey-osborne",
+    "calibration": {
+      "digitalInfraScore": 0.62,
+      "taskCompositionSource": "ilo-future-of-work",
+      "alpha": 0.20,
+      "beta": 0.15
+    }
+  },
+  "opportunityTypes": ["formal", "training", "self-employment", "gig"],
+  "constraints": {
+    "avgBandwidthKbps": 6500,
+    "sharedDeviceLikelihood": 0.32,
+    "primaryAccessMode": "smartphone"
+  },
+  "meta": {
+    "sourcesYear": 2024,
+    "lastUpdated": "2025-12-15",
+    "notes": {
+      "en": "Mexican calibration accounts for higher-but-uneven digital infrastructure and a large formal+informal split."
+    }
+  }
+}

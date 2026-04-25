@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Provenance for every dataset slice shipped with Unmapped Kairos. Each entry cites the original source, the year of the underlying data, and notes any curation that was applied. ETL scripts in scripts/etl/ document how to refresh.",
+  "datasets": {
+    "frey-osborne": {
+      "title": "Frey & Osborne automation probabilities by occupation",
+      "citation": "Frey, C. B., & Osborne, M. A. (2017). The future of employment: How susceptible are jobs to computerisation? Technological Forecasting and Social Change, 114, 254-280.",
+      "source_url": "https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf",
+      "doi": "10.1016/j.techfore.2016.08.019",
+      "data_year": 2013,
+      "fetched_at": "2025-12-15",
+      "license": "Academic publication; values cited under fair use",
+      "scope": "Curated subset of ~50 occupations spanning the full risk distribution; original paper has 702 SOC occupations.",
+      "calibration_note": "Frey-Osborne assumes US task composition. Unmapped Kairos applies LMIC recalibration (alpha, beta) per CountryContext."
+    },
+    "isco-08": {
+      "title": "International Standard Classification of Occupations 2008",
+      "citation": "International Labour Organization (2012). ISCO-08 Volume I: Structure, group definitions and correspondence tables.",
+      "source_url": "https://www.ilo.org/public/english/bureau/stat/isco/isco08/",
+      "data_year": 2008,
+      "fetched_at": "2025-12-15",
+      "license": "Public ILO standard",
+      "scope": "Top-level 10 major groups, plus selected sub-major groups and unit groups relevant to demo personas."
+    },
+    "esco": {
+      "title": "European Skills, Competences and Occupations classification (subset)",
+      "citation": "European Commission (2024). ESCO classification v1.2.",
+      "source_url": "https://esco.ec.europa.eu/en/classification",
+      "data_year": 2024,
+      "fetched_at": "2025-12-15",
+      "license": "Creative Commons Attribution 4.0 International",
+      "scope": "Curated subset of ~80 skills + ~25 occupations; multilingual labels (en, es, pt). Bangla and Twi labels filled by translation, not ESCO source."
+    },
+    "ilostat-wages": {
+      "title": "Mean nominal monthly earnings of employees by economic activity (ILOSTAT)",
+      "citation": "ILO (2024). ILOSTAT database.",
+      "source_url": "https://ilostat.ilo.org/topics/wages/",
+      "data_year": 2023,
+      "fetched_at": "2025-12-15",
+      "license": "ILO Open Data License",
+      "scope": "Median monthly earnings by ISIC sector for the 4 demo countries. Some sectors imputed from neighboring sectors where ILOSTAT had gaps; imputation flagged in records."
+    },
+    "wdi": {
+      "title": "World Development Indicators (selected)",
+      "citation": "World Bank (2024). World Development Indicators.",
+      "source_url": "https://databank.worldbank.org/source/world-development-indicators",
+      "data_year": 2023,
+      "fetched_at": "2025-12-15",
+      "license": "CC BY 4.0",
+      "indicators": [
+        "SL.UEM.NEET.ZS — Share of youth not in education, employment or training",
+        "SL.EMP.WORK.ZS — Wage and salaried workers (% of employment)",
+        "SL.EMP.TOTL.SP.ZS — Employment-to-population ratio (15+)",
+        "NY.GDP.PCAP.KD.ZG — GDP per capita growth (annual %)",
+        "NY.GDP.PCAP.CD — GDP per capita (current US$)"
+      ]
+    },
+    "data360-informality": {
+      "title": "Informal employment (% of total non-agricultural employment)",
+      "citation": "World Bank Data360 / ILO derived.",
+      "source_url": "https://data360.worldbank.org/en/indicator/WB_GS_SL_ISV_IFRM_ZS",
+      "data_year": 2023,
+      "fetched_at": "2025-12-15",
+      "license": "CC BY 4.0"
+    },
+    "data360-employment-by-sector": {
+      "title": "Employment by economic activity (Data360 / ILO)",
+      "citation": "World Bank Data360.",
+      "source_url": "https://data360.worldbank.org/en/dataset/ILO_EMP",
+      "data_year": 2023,
+      "fetched_at": "2025-12-15",
+      "license": "CC BY 4.0"
+    },
+    "itu-digital-development": {
+      "title": "ITU Digital Development indicators",
+      "citation": "International Telecommunication Union (2024). DataHub.",
+      "source_url": "https://datahub.itu.int/",
+      "data_year": 2023,
+      "fetched_at": "2025-12-15",
+      "license": "ITU Open Data"
+    },
+    "wittgenstein": {
+      "title": "Wittgenstein Centre Human Capital Data Explorer (subset)",
+      "citation": "Wittgenstein Centre for Demography and Global Human Capital, Human Capital Data Explorer Version 2.0 (2024).",
+      "source_url": "http://dataexplorer.wittgensteincentre.org/",
+      "data_year": 2024,
+      "fetched_at": "2025-12-15",
+      "license": "Creative Commons Attribution 4.0",
+      "scope": "Population by education attainment, projected 2025-2035, age 20-29 (youth proxy), both sexes, SSP2 scenario."
+    },
+    "ilo-future-of-work": {
+      "title": "ILO Future of Work task content indices (subset)",
+      "citation": "ILO (2023). Routine vs. non-routine task share by country and sector.",
+      "source_url": "https://ilostat.ilo.org/topics/employment/",
+      "data_year": 2023,
+      "fetched_at": "2025-12-15",
+      "license": "ILO Open Data",
+      "scope": "Per-sector routine task share for the 4 demo countries; values calibrated from comparable LMIC studies where direct figures were missing."
+    }
+  },
+  "honest_limits": [
+    "Snapshots are versioned and dated; they do not auto-refresh. ETL scripts in scripts/etl/ document refresh procedures.",
+    "Some sectoral wage figures are imputed from neighboring sectors where source data has gaps; imputed records carry an `imputed: true` flag.",
+    "Frey-Osborne probabilities are US-derived. The CountryContext.automation.calibration formula recalibrates them for LMIC contexts; the formula is exposed to the user, not buried.",
+    "ESCO multilingual labels for Bangla and Twi were translated from English (ESCO does not natively support these languages). Verifications recommended for production use."
+  ]
+}
